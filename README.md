@@ -15,6 +15,8 @@ An AI agent-based hospital chatbot designed to help users or patients book their
 
 This chatbot leverages advanced AI frameworks and platforms to facilitate seamless appointment booking and provide informative responses to patients inquiries. The application is designed to enhance the efficiency of hospital operations and improve patient experience.
 
+![alt text](image.png)
+
 ## Technologies Used
 
 - **AI Frameworks**: Langgraph, Langchain, Llama-Index
