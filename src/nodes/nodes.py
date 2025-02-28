@@ -56,7 +56,6 @@ def human_interrupt(state: State) -> Command[Literal["orchestrator"]]:
 def orchestrator_node(state: State) -> Command[Literal[*members, "__end__"]]:
     messages = [{"role": "system", "content": orchestrator_prompt}] + state["messages"]
     response = llm.with_structured_output(Router).invoke(messages)
-    print("Orchestrator Response: ", response)
     goto = response["next"]
 
     if goto == "FINISH":

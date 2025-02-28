@@ -9,7 +9,6 @@ An AI agent-based hospital chatbot designed to help users or patients book their
 3. [Installation and Setup](#installation-and-setup)
 4. [Usage](#usage)
 5. [Agents](#agents)
-6. [Contact](#contact)
 
 ## Description
 
